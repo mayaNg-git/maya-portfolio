@@ -215,7 +215,7 @@ header{
   color: #E5FFF4;
 }
 
-li.codepen:hover {
+li.linkedin:hover {
   -webkit-animation: pop .3s 2;
           animation: pop .3s 2;
 }
@@ -225,7 +225,7 @@ li.github:hover {
           animation: full-circle 1.1s ease-out;
 }
 
-li.twitter:hover {
+li.mail:hover {
   -webkit-animation: rotate-vertical 1.1s ease-out;
           animation: rotate-vertical 1.1s ease-out;
 }
@@ -344,4 +344,64 @@ li.twitter:hover {
   height: 100vh;
   width: 100%;
   position:relative;
+}
+.project-box{
+  width: 100%;
+  height: 75%;
+  margin-top: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.project{
+  margin:10px;
+  width:30%;
+  height: 95%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+.project .project-img {
+  width: 100%;
+  height:50%;
+  background: #2C3E50;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.project .project-img img{
+  width: 90% ;
+  transition: 2s;
+}
+.project:hover{
+  width: 35%;
+  height: 100%;
+}
+
+.project .project-header {
+  width: 100%;
+  height: 10%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: jost;
+  color: #232323;
+}
+.project .project-description {
+  width: 100%;
+  height: 60%;
+  background: #f0f0f0;
+}
+.project-description ul li {
+  
+  font-size: 18px;
+ font-family: "poppins";
 }
